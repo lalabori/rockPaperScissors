@@ -1,0 +1,48 @@
+.box{
+  border: 5px double pink;
+  width: 450px;
+  height: 450px;
+  border-radius: 70%;
+  margin-top: 4em;
+  margin-right: 1em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.img{
+  width: 300px;
+  height: 300px;
+  margin-left: 4.2em;
+}
+
+.title{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.win {
+  border: 5px double rgb(38, 251, 38, 0.3);
+}
+
+.lose {
+  border: 5px double rgb(244, 12, 12, 0.3);
+}
+
+.tie {
+  border: 5px double rgb(250, 247, 78, 0.3);
+}
+
+.button {
+  background-color: white;
+  border-color: transparent;
+  border-radius: 10%;
+  width: 8em;
+  height: 3em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 0.3em;
+  margin-top: 0.5em;
+}
+
